@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopIt - Sneakers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu">
+                <img src="/assets/icons/icon-menu.svg" alt="Menu">
+            </div>
+            <div class="logo">
+                <img src="/assets/logo.svg" alt="Logo">
+            </div>
+            <ul>
+                <li>
+                    <a href="">Collection</a>
+                </li>
+                <li>
+                    <a href="">Men</a>
+                </li>
+                <li>
+                    <a href="">Women</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+            <div class="cart">
+                <img src="/assets/icons/icon-cart.svg" alt="Cart" id="cart">
+            </div>
+            <div class="user-img">
+                <img src="/assets/images/image-avatar.png" alt="User">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="img-container">
+            <div class="prev">
+            <img src="/assets/icons/icon-previous.svg" alt="Prev button" id="prev-btn">
+            </div>
+        <img src="/assets/images/image-product-1.jpg" alt="Sneakers" class="thumbnail">
+        <img src="/assets/images/image-product-1.jpg" alt="Sneakers" class="thumbnail-mobile">
+        <div class="preview-img">
+        <img src="/assets/images/image-product-1-thumbnail.jpg" alt="Preview" class="preview active">
+        <img src="/assets/images/image-product-2-thumbnail.jpg" alt="Preview" class="preview">
+        <img src="/assets/images/image-product-3-thumbnail.jpg" alt="Preview" class="preview">
+        <img src="/assets/images/image-product-4-thumbnail.jpg" alt="Preview" class="preview">
+        </div>
+        <div class="next" >
+        <img src="/assets/icons/icon-next.svg" alt="next button" id="next-btn">
+        </div>
+        </div>
+        <div class="image-info">
+            <p class="company">sneaker company</p>
+            <h1>Fall Limited Edition Sneakers</h1>
+            <p class="description">
+                These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll
+                withstand everything the weather can offer
+            </p>
+            <div class="price-info">
+                <div class="price">
+                <h2>$125.00</h2>
+                <span>50%</span>
+                </div>
+                <del>$250.00</del>
+            </div>
+            <div class="cart-add">
+                <div class="input-num">
+                    <img class="minus" src="/assets/icons/icon-minus.svg" alt="Minus Sign">
+                <input type="number" value="0" class="quantity">
+                <img  class="plus" src="/assets/icons/icon-plus.svg" alt="Plus Sign">
+                </div>
+                <button id="add-cart">
+                    <img src="/assets/icons/cart-button.svg" alt="Cart">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+    </main>
+    <div class="img-container-lightbox">
+        <img src="/assets/icons/icon-close.svg" alt="CLose" class="close-img" id="close-btn">
+        <div class="prev-lightbox">
+            <img src="/assets/icons/icon-previous.svg" alt="Prev button" id="prev-btn">
+        </div>
+        <img src="/assets/images/image-product-1.jpg" alt="Sneakers" class="image">
+        <div class="preview-img-lightbox">
+            <img src="/assets/images/image-product-1-thumbnail.jpg" alt="Preview" class="preview-lightbox active">
+            <img src="/assets/images/image-product-2-thumbnail.jpg" alt="Preview" class="preview-lightbox">
+            <img src="/assets/images/image-product-3-thumbnail.jpg" alt="Preview" class="preview-lightbox">
+            <img src="/assets/images/image-product-4-thumbnail.jpg" alt="Preview" class="preview-lightbox">
+        </div>
+        <div class="next-lightbox">
+            <img src="/assets/icons/icon-next.svg" alt="Next Button" id="next-btn">
+        </div>
+    </div>
+    <div class="cart-container">
+        <h3>Cart</h3>
+        <div class="cart-item">
+            <p>Your Cart Is Empty</p>
+        </div>
+    </div>
+    <nav class="nav-mobile">
+        <ul>
+            <li>
+                <img src="/assets/icons/icon-close.svg" alt="Close Icon">
+            </li>
+            <li>
+                <a href="#">Collections</a>
+            </li>
+            <li>
+                <a href="#">Men</a>
+            </li>
+            <li>
+                <a href="#">Women</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+<script type="module" src="/main.js"></script>
+<script type="text/javascript" src="/jss.js"></script>
+</html>
